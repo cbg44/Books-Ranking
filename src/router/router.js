@@ -6,8 +6,8 @@ import BookList from "../Components/BookList";
 const ReactRouter =()=>{
     return (
         <React.Fragment>
-            <Header />
-            <Route exact path="https://booksranking.herokuapp.com/" component={BookList} />
+            <Header/>
+            <Route exact path="/" component={BookList} />
             <Route exact path="/rank/:rank" component={BookList} />
             <Route exact path="/rank/:rank/:authorRank" component={BookList} />
         </React.Fragment>
