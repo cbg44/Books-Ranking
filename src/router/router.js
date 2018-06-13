@@ -7,9 +7,9 @@ const ReactRouter =()=>{
     return (
         <React.Fragment>
             <Header/>
-            <Route exact path="http://shenkar.html5-book.co.il/2017-2018/dcs/dev_39/client_app/" component={BookList} />
-            <Route exact path="http://shenkar.html5-book.co.il/2017-2018/dcs/dev_39/client_app/rank/:rank" component={BookList} />
-            <Route exact path="http://shenkar.html5-book.co.il/2017-2018/dcs/dev_39/client_app/rank/:rank/:authorRank" component={BookList} />
+            <Route exact path="/" component={BookList} />
+            <Route exact path="/rank/:rank" component={BookList} />
+            <Route exact path="/rank/:rank/:authorRank" component={BookList} />
         </React.Fragment>
     );}
 
