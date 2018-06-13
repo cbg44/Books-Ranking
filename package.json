@@ -2,6 +2,7 @@
   "name": "final-projects-ideas-4students",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://shenkar.html5-book.co.il/2017-2018/dcs/dev_41/client_app",
   "dependencies": {
     "lodash": "^4.17.10",
     "react": "^16.4.0",
